@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulação de DOM</title>
+</head>
+<body>
+    <h1> Manipulando o DOM </h1>
+    <p name="paragrafo"> Estou aprendendo a manipular o DOM utilizando o JS. </p>
+    <div id="div-1">
+        <p>Java Script é incrivel!</p>
+    </div>
+    <script>
+        window.document.write('Escrevendo qualquer coisa...')
+        var batata = window.document.getElementsByTagName('h1')[0]
+        batata.innerHTML += 'com a escola DNC'
+    </script>
+</body>
+</html>
